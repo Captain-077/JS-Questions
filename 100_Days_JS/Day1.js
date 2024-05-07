@@ -6,6 +6,7 @@ const findLongestWord = (str) => {
     }
     
     words = str.split(" ");
+    console.log(words)
     longest = words.sort((a,b) => b.length-a.length );
     console.log(longest)
     

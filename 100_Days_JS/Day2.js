@@ -15,8 +15,7 @@ const generateHash = (str) => {
     
     // console.log(str)
     return str
-   
-    jjj
+
 };
 
 console.log(generateHash("my name is slim shady"));
