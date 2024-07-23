@@ -14,12 +14,10 @@ const bubbleSort = (arr) => {
             if(arr[j] > arr[j+1]){
                 [arr[j],arr[j+1]] = [arr[j+1],arr[j]];
             }
-            
-        }
-        
+        } 
     }
     return arr;
 }
 const nums = [29,10,14,37,14] ;
 
-console.log(bubbleSort(nums));
+console.log(bubbleSort([55,2,3]));

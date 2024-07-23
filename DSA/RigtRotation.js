@@ -15,4 +15,4 @@ const RightRotation = (arr,rotation) =>{
 }
 
 const arr1 = [1,2,3,4,5];
-console.log(RightRotation(arr1,3));
+console.log(RightRotation(arr1,1));
