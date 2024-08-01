@@ -1,0 +1,16 @@
+const checkPalendrom = (string) => {
+
+    let len = string.length;
+
+    for (i = 0; i < len; i++) {
+
+        for (j = len - 1; j > 0;) {
+            if (arr[i] == arr[len - 1]) {
+            }
+        }
+        
+    }
+}
+
+
+console.log(checkPalendrom("malyalam"));
